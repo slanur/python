@@ -68,6 +68,8 @@ print('hi' or 'hey') #'hi' döndurür
 print([] or False) # False döndürür
 print(False or []) #[] döndürür
 
+#and çalışma mantığı ise or'un tam tersi. ilk "False" değeri döndürür. Eğer tüm değerler doğru (True) ise sonuncusunu döndürür.
+
 #is ve is not nesnelerin aynı olup olmadığını komtrol eder
 x=["starwberry","grape","pineapple"]
 y=["starwberry","grape","pineapple"]
