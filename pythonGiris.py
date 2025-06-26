@@ -1,6 +1,13 @@
 print("hello world")
 print('python is so easy') #bu sekilde tek tirnak ile de kullanabiliyoruz 
 
+#print içinde çoklu satır kullanmak
+print("""
+benim 
+adım 
+sıla
+""")
+
 #veriable
 x=7
 y="Python"#tek tırnak ile de yazabiliyoruz 
