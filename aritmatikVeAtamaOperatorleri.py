@@ -62,6 +62,12 @@ print(x>5 and x<15)
 print(x>15 or x>5)
 #birde not var, bu C de yok;  not(x>3 and x<15) şeklinde kullanılabilir  
 
+#or ifadesinin çalışma mantığı-> or operatörü, ilk "doğru" (truthy) değeri döndürür. Eğer tüm değerler yanlış (falsy) ise sonuncusunu döndürür.
+print(False or 'hey') #'hey' döndürür
+print('hi' or 'hey') #'hi' döndurür
+print([] or False) # False döndürür
+print(False or []) #[] döndürür
+
 #is ve is not nesnelerin aynı olup olmadığını komtrol eder
 x=["starwberry","grape","pineapple"]
 y=["starwberry","grape","pineapple"]
