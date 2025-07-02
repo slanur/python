@@ -43,7 +43,7 @@ class person:
         print("wow! It worked automaically")
 p1=person() #fonksiyon çağırılmadan direkt çalışır
 
-#(__str__)
+#(__str__)-> dışarıya birşey döndürmek  için kullanılır. __ini__'te dışarıya birşey döndüremeyiz.
 class Person:
     def __init__(self,n,a):
         self.name=n
