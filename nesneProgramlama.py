@@ -4,6 +4,9 @@
 
 #class oluşturma ve kullanma
 class myClass:
+    """
+    Burayı class'ı açıklamak için kullanıyoruz
+    """
     x=7
 
 obj=myClass()
